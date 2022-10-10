@@ -1,0 +1,39 @@
+/* select all elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    background-color:darkgray;
+}
+/* header, main, footer */
+header, main, footer {
+    min-width: 100vw;
+    background-color:darkgrey;
+}
+/* header */
+header {
+    display:inline-flex;
+    justify-content:space-between;
+}
+.logo {
+    width: 5em
+}
+/* .menu {
+ 
+} */
+ 
+/* Navbar */
+.menu-list {
+    display:inline-flex;
+    list-style: none;
+    color:pink;
+}
+.menu-list li {
+    padding: 0 10px
+}
+/* main */
+.main {
+ 
+}
+
+
